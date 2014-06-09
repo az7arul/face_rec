@@ -1,6 +1,6 @@
 import cv2, sys, numpy, os
 
-size = 2
+size = 4
 fn_haar = '/usr/local/Cellar/opencv/2.4.8.2/share/OpenCV/haarcascades/haarcascade_frontalface_alt.xml'
 #fn_haar = '/usr/local/Cellar/opencv/2.4.8.2/share/OpenCV/haarcascades/haarcascade_profileface.xml'
 fn_dir = 'home_test'

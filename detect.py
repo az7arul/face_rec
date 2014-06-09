@@ -16,7 +16,7 @@ for (subdirs, dirs, files) in os.walk(fn_dir):
             images.append(cv2.imread(path, 0))
             lables.append(int(lable))
         id += 1
-(im_width, im_height) = (112, 92)
+(im_width, im_height) = (200, 200)
 (images, lables) = [numpy.array(lis) for lis in [images, lables]]
 model = cv2.createFisherFaceRecognizer()
 model.train(images, lables)
